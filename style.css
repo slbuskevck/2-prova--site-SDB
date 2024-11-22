@@ -1,0 +1,99 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3efe3;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #f37907d7;
+    color: rgba(25, 53, 23, 0.918);
+    padding: 20px 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+  }
+  
+  /* Seções */
+  .section {
+    margin: 40px 20px;
+  }
+  
+  .section h2 {
+    font-size: 2em;
+    color: #1a471c;
+    margin-bottom: 20px;
+  }
+  
+  /* Galeria */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gallery article {
+    background-color: white;
+    border: 1px solid #203d13;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery h3 {
+    margin: 15px 0 5px;
+    font-size: 1.5em;
+    color: #164617;
+  }
+  
+  .gallery p {
+    margin: 0 15px 15px;
+    font-size: 1em;
+    color: #1a0909;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #e78311d8;
+    color: rgb(7, 1, 1);
+    padding: 15px 20px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(238, 138, 7, 0.842);
+  }
+  
+  footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #040a03;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
